@@ -1,0 +1,45 @@
+\documentclass[12pt]{tdtp}
+\usepackage{hyperref}
+\usepackage{tabularx,colortbl}
+\usepackage{multirow}
+\usepackage{listings}
+\lstset{
+	language=VHDL,
+basicstyle=\tiny\ttfamily}
+\definecolor{light-gray}{gray}{0.96}
+\definecolor{pageheading-gray}{gray}{0.2}
+\definecolor{dark-gray}{gray}{0.45}
+\definecolor{dark-green}{rgb}{0.245,0.121,0.0}
+
+\newcommand{\auteur}{Cedric Lemaitre}
+\newcommand{\couriel}{c.lemaitre58@gmail.com}
+\newcommand{\promo}{BScv}
+\newcommand{\annee}{2017-2018}
+\newcommand{\matiere}{Computer science}
+
+\newcommand{\tdtp}{Lab \#1}
+\renewcommand{\sujet}{Function, array, matrix}
+
+
+\begin{document}
+\titre
+\textit{NB : use good practice for naming and write code \footnote{\url{https://google.github.io/styleguide/cppguide.html}}!!!}
+
+%%%%%%%%%%%
+\Exo
+
+Write in C++ a class named "Cripto". This class take a string at construction. This class has as interne variable (private) 2 another strings.
+Those strings will contain te result of 2 encryption methods
+
+\begin{itemize}
+	\item Caesar cipher \url{https://en.wikipedia.org/wiki/Caesar_cipher}
+	\item Vigenère cipher \url{https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher}
+\end{itemize}
+
+Add also all get and set functions and the fountion to display results of encryption.
+
+\Exo
+
+Add methods to inverse the encryption to your "Cripto" classe.
+
+\end{document}
